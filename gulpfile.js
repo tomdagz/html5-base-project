@@ -46,7 +46,7 @@ gulp.task('compass', function() {
 		}))
     .pipe(compass({
     	//style: 'compressed',
-    	sass: 'src/scss',
+    	sass: 'src/sass',
     	css: output.css,
     	comments:  true,
       	require: ['susy', 'breakpoint']

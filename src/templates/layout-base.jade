@@ -1,0 +1,24 @@
+doctype html
+include ./helpers/vars
+html.no-js(lang='es')
+	head
+		title #{title}
+		meta(charset='utf-8')
+		meta(name='description', content='#{meta_description}')
+		meta(name='keywords', content='#{meta_keywords}')
+		meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1')
+		script(src="js/modernizr.js")
+		block stylesheets
+			link(rel="stylesheet", href="css/main.css")
+		block scripts
+	body
+		.general-wrapper
+			//
+				include ./partials/header.jade
+			main.content
+				block content
+			//
+				include ./partials/footer.jade
+		block scripts_footer
+			script(src="js/vendor/all.js")
+			script(src="js/general.js")
