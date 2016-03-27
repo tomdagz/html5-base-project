@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "html base app",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomdagz/html5-base-project.git"
+  },
+  "author": "tomdagz@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomdagz/html5-base-project/issues"
+  },
+  "homepage": "https://github.com/tomdagz/html5-base-project#readme"
+}
